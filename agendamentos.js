@@ -50,7 +50,7 @@ function renderizarTabela(lista) {
 function filtrarTabela() {
   const textoFiltro = filtro.value.toLowerCase();
   const filtrados = agendamentos.filter(agendamento =>
-    agendamento.nome.toLowerCase().includes(textoFiltro)
+    agendamento.cpf.toLowerCase().includes(textoFiltro)
   );
   renderizarTabela(filtrados);
 }
