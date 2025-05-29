@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h2>Login</h2>
+        </header>
+
+
+        <main>
+            <form id="LoginForm">
+                <label for="usuario">Usuário:</label>
+                <input type="text" id="usuario" name="usuario" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+                <label>
+                    <input type="checkbox" onclick="document.getElementById('senha').type = this.checked ? 'text' : 'password';">
+                    Mostrar
+                </label>
+
+                <button type="submit" class="btn-logar">Entrar</button>
+
+                <p id="msgErro" style="color: red; display: none;">Usuário ou senha inválido</p>
+            </form>
+        </main>
+    </div>
+
+    <script src=login.js></script>
+    
+</body>
+</html>

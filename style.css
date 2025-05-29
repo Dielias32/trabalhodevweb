@@ -1,0 +1,135 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.box{
+width: 90%;
+max-width: 600px;
+padding: 30px;
+background-color: #ffffff;
+border-radius: 10px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-entrar{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-entrar:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    font-size: 1em;     
+}
+
+.btn-logar{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn-logar:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+#formAgendamento{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+#formAgendamento input, #formAgendamento button {
+     padding: 10px;
+     font-size: 1em;
+}
+
+#filtro {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    font-size: 1em;
+}
+
+#listaAgendamentos {
+
+    list-style: none;
+    padding: 0;
+}
+
+#listaAgendamentos li {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;    
+}
+.btn-remover {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-remover {
+    background-color: #c82333;
+}
+
+.btn-salvarAgendamento{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.1s;
+}
+.btn-salvarAgendamento:hover{
+    background-color: #007bff;
+    color: white;
+}
+
+
